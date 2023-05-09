@@ -89,5 +89,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/electron-vite' }
     ]
+  },
+  vite: {
+    // Vite config options
+    base:'docs-test/'
   }
 })
