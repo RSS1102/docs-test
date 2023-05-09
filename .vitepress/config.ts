@@ -16,7 +16,7 @@ export default defineConfig({
   markdown:{
     lineNumbers:true,
   },
-
+  base: '/docs-test/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/electron-vite.svg',
@@ -90,8 +90,4 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/electron-vite' }
     ]
   },
-  vite: {
-    // Vite config options
-    base:'docs-test/'
-  }
 })
