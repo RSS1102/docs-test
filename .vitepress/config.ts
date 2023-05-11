@@ -67,24 +67,24 @@ export default defineConfig({
         text: 'Electron',
         collapsed: false,
         items: [
-          { text: 'Render Process Use Nodejs', link: '/electron/render-process-use-nodejs' },
-          { text: 'Multiple Programs Windows', link: '/electron/multiple-programs-windows' },
+          { text: 'Render Process Use Nodejs', link: '/electron-about/render-process-use-nodejs' },
+          { text: 'Multiple Programs Windows', link: '/electron-about/multiple-programs-windows' },
         ]
       },
       {
         text: 'Troubleshooting',
         collapsed: false,
         items: [
-          { text: 'Issue', link: '/troubleshooting/issue' },
+          { text: 'Issue', link: '/trouble-shooting/issue' },
         ]
       },
       {
         text: 'Community',
         collapsed: false,
         items: [
-          { text: 'Team', link: '/community/team' },
-          { text: 'Development And Contribution', link: '/community/development-contribution' },
-          { text: 'Acknowledge', link: '/community/acknowledge' },
+          { text: 'Team', link: '/community-awesome/team' },
+          { text: 'Development And Contribution', link: '/community-awesome/development-and-contribution' },
+          { text: 'Acknowledge', link: '/community-awesome/acknowledge' },
         ]
       }
     ],
