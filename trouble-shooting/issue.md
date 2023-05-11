@@ -2,8 +2,8 @@
 
 ## Directory
 
-- [MultipleEnv](./Issue.html#multipleenv)
-- [Dependency Pre-Bundling](./Issue.html#dependency-pre-bundling)
+- [MultipleEnv](./issue.html#multipleenv)
+- [Dependency Pre-Bundling](./issue.html#dependency-pre-bundling)
 
 ## MultipleEnv
 
