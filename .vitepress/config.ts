@@ -13,12 +13,10 @@ export default defineConfig({
       { name: 'electron-vite', content: 'Creating desktop programs using Electron and vite' },
     ],
   ],
-  markdown:{
-    lineNumbers:true,
+  markdown: {
+    lineNumbers: true,
   },
-
   base: '/docs-test/',
-
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -67,8 +65,8 @@ export default defineConfig({
         text: 'Electron',
         collapsed: false,
         items: [
-          { text: 'Render Process Use Nodejs', link: '/electron-about/render-process-use-nodejs' },
-          { text: 'Multiple Programs Windows', link: '/electron-about/multiple-programs-windows' },
+          { text: 'Render Process Use Nodejs', link: '/electron/render-process-use-nodejs' },
+          { text: 'Multiple Programs Windows', link: '/electron/multiple-programs-windows' },
         ]
       },
       {
@@ -82,15 +80,22 @@ export default defineConfig({
         text: 'Community',
         collapsed: false,
         items: [
-          { text: 'Team', link: '/community-awesome/team' },
-          { text: 'Development And Contribution', link: '/community-awesome/development-and-contribution' },
-          { text: 'Acknowledge', link: '/community-awesome/acknowledge' },
+          { text: 'Development And Contribution', link: '/community/development-and-contribution' },
+          { text: 'Acknowledge', link: '/community/acknowledge' },
         ]
       }
     ],
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/electron-vite' }
-    ]
+    ],
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'MHLM0MHOBZ',
+        apiKey: '9d4e29b666484f54feafbef08cac6754',
+        indexName: 'electron-viteio'
+    }
+    }
   }
 })

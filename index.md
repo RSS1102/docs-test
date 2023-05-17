@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Electron ⚡️ Vite"
-  tagline: Creating desktop programs using Electron and vite
+  tagline: Creating desktop programs using Electron and Vite
   image:
     src: /electron-vite.svg
     alt: electron-vite
@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /Guide/why-electron-vite
+      link: /guide/why-electron-vite
     - theme: alt
       text: View on GitHub
       link: https://github.com/electron-vite`
